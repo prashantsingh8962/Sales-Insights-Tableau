@@ -41,16 +41,11 @@ Understanding the available data is crucial for effective analysis. Here’s a b
 - **Fact Tables**: Contain transactional data.
 
 ### Key Tables:
-- `dim_customer`: 27 distinct markets, 75 customers, 2 sales platforms (Brick & Mortar, E-commerce)
-- `dim_market`: 27 markets, 7 sub-zones, 4 regions (APAC, EU, NA, LATAM)
-- `dim_product`: Different divisions like Peripherals, Accessories, Networking
-- `fact_forecast_monthly`: Used for customer demand forecasting
-- `fact_sales_monthly`: Tracks actual sales data
-- `freight_cost`: Contains travel and other logistical costs
-- `gross_price`: Product pricing details
-- `manufacturing_cost`: Manufacturing cost details
-- `pre_invoice_deductions`: Pre-invoice deductions percentages
-- `post_invoice_deductions`: Post-invoice deductions and adjustments
+- `customers`
+- `markets`
+- `Products`
+- `Transactions`
+- `Date`
 
 ## Data Modeling
 Data modeling is the foundation of the Tableau report. A well-structured data model enhances the performance and accuracy of the dashboard. This project follows best practices in data modeling, utilizing a snowflake schema.
@@ -61,7 +56,11 @@ Data modeling is the foundation of the Tableau report. A well-structured data mo
 The dashboard design is based on mockups received from stakeholders. Each view serves a specific business function:
 
 - **Revenue-Sales View**: Sales trends and performance
+  <img src="https://github.com/prashantsingh8962/Sales-Insights-Tableau/blob/main/Resources/Revenue%20view.png" class="center">
+
 - **Profit View**: Marketing effectiveness
+  <img src="https://github.com/prashantsingh8962/Sales-Insights-Tableau/blob/main/Resources/Profit%20view.png" class="center">
+
 
 
 ## Project Outcome
