@@ -55,8 +55,8 @@ Understanding the available data is crucial for effective analysis. Here’s a b
 ## Data Modeling
 Data modeling is the foundation of the Tableau report. A well-structured data model enhances the performance and accuracy of the dashboard. This project follows best practices in data modeling, utilizing a snowflake schema.
 
-[Data Model](https://github.com/prashantsingh8962/Sales-Insights-Tableau/blob/main/Resources/Data%20Model%20tableau.png
-)
+<img src="https://github.com/prashantsingh8962/Sales-Insights-Tableau/blob/main/Resources/Data%20Model%20tableau.png" class="center">
+
 ## Dashboard Design
 The dashboard design is based on mockups received from stakeholders. Each view serves a specific business function:
 
